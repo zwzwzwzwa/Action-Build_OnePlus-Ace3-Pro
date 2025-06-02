@@ -1,6 +1,8 @@
 name: Build OnePlusAce3Pro
 on:
   workflow_dispatch:
+    schedule:
+          - cron: '0 23 * * *'  # UTC时间23点（北京时间次日7点）
     inputs:
       CPU:
         type: choice
