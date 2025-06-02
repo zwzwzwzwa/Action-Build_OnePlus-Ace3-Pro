@@ -14,7 +14,7 @@ on:
         default: 'Build OnePlus_SukiSU Ultra All'
         options:
           - Build OnePlus_SukiSU Ultra All
-          - Build OnePlus-Ace3-Pro
+          - Build OnePlusAce3Pro
           - Build TEST
           - Build TEST2
       count:
